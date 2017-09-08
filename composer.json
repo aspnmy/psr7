@@ -1,0 +1,41 @@
+{
+    "name": "avoxx/psr7",
+    "type": "library",
+    "description": "The psr7 package contains a full PSR-7 HTTP message implementation",
+    "keywords": [
+        "framework",
+        "HTTP",
+        "PSR-7",
+        "components",
+        "avoxx"
+    ],
+    "homepage": "https://avoxx.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Merlin Christen",
+            "email": "merloxx@avoxx.org",
+            "homepage": "https://merlinchristen.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Avoxx\\Psr7\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AvoxxTests\\Psr7\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "psr/http-message": "^1.0@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
